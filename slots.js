@@ -161,6 +161,7 @@ function game() {
         const playAgain = prompt("Do you want to play again (y/n)? ");
 
         if (playAgain != "y") {
+            console.log(`You have $${balance} left`);
             break;
         }
     }
